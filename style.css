@@ -1,158 +1,196 @@
 @font-face {
-    font-family: 'mona-sans';
-    /* Specify a name for your font */
-    src: url('fonts/Mona-Sans.ttf') format('truetype');
-    /* Path to your font files */
+  font-family: "mona-sans";
+  /* Specify a name for your font */
+  src: url("fonts/Mona-Sans.ttf") format("truetype");
+  /* Path to your font files */
 
-    /* Add more src lines for additional formats if needed */
+  /* Add more src lines for additional formats if needed */
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body {
-}
-
-
-
 
 .header {
-    background-color: #0E1947;
-    /* height: 80px; */
-    display: flex;
-    align-items: center;
-    /* padding-left: 30px; */
-    justify-content: space-between;
-
-
+  background-color: #0e1947;
+  /* height: 80px; */
+  display: flex;
+  align-items: center;
+  /* padding-left: 30px; */
+  justify-content: space-between;
 }
-
+.hero-section{
+  background-color: #0e1947;
+  color: #ffffff;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 50px;
+}
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 40px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px 60px;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo img {
-    margin-right: 14px;
+  margin-right: 14px;
 }
 
 .logo img:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .logo .logo {
-    width: 25px;
+  width: 25px;
 }
 
 .logo .logo2 {
-    width: 130px;
-    height: 20px;
+  width: 130px;
+  height: 20px;
 }
 
 nav {
-    background: #0E1947;
-    text-align: right;
-    color: white;
-
-
-
+  background: #0e1947;
+  text-align: right;
+  color: white;
 }
 
 .nav-links {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    justify-content: flex-end;
-    font-family: 'mona-sans', sans-serif;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+  font-family: "mona-sans", sans-serif;
 }
 
 .nav-links li {
-    display: inline;
-    margin-left: 20px;
-    font-weight: 400;
-    font-size: 18px;
+  display: inline;
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .nav-links a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
 }
 
 #button {
-    width: auto;
-    background-color: #EE4312;
-    /* height: 50px; */
-    border-radius: 8px;
-    font-weight: 500;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
+  width: auto;
+  background-color: #ee4312;
+  /* height: 50px; */
+  border-radius: 8px;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .nav-links li .firstlink {
-    color: #FF5F31;
+  color: #ff5f31;
 }
-
-
 
 /*.........section1......*/
 
 .container1 {
-    background-color: #0E1947;
-    display: flex;
-    width: 1400;
+  display: flex;
+  margin: auto;
+  gap: 100px;
 }
 .text {
-    margin-top: 80px;
-    margin-left: 30px;
-    
+  padding: 30px 2px;
+  flex-basis: 60%;
 }
 .text h1 {
-    font-size: 64px;
-    color: #FFFFFF;
-    font-weight: 700;
-    margin-bottom: 20px;
-    font-family: 'mona-sans', sans-serif;
-    
+  font-size: 64px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: "mona-sans", sans-serif;
 }
 .text p {
-    font-size: 18px;
-    color:  #E2DEDC;
-    font-family: 'mona-sans', sans-serif;
-    
+  font-size: 18px;
+  color: #e2dedc;
+  font-family: "mona-sans", sans-serif;
+  line-height: 40px;
 }
 .image-container {
-    position: relative;
-    margin-right: 30px;
-    
+  position: relative;
+  flex-basis: 50%;
+
 }
 
 .second-image {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 350px;
-    height: 344px;
-    /* Add more styling as needed */
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 344px;
+  margin-left: 100px;
+  /* Add more styling as needed */
 }
 .first-image {
-    width: 350px;
-    height: 344px;
-    border-radius: 0px, 0px, 24px, 24px;
+  max-width: 100%;
+  width: 500px;
+  /* height: 344px; */
+  border-radius: 0px, 0px, 24px, 24px;
+}
+.icons1 {
+  display: flex;
+  align-items: center; /* Aligns items vertically in the center */
+  justify-content: flex-start; /* Aligns items to the left */
+  gap: 10px; /* Adds space between h3 and h4, adjust this value as needed */
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.icons1 h3 {
+  border: 2px solid #ee4312;
+  padding: 15px;
+  color: white;
+  background-color: #ee4312;
+  border-radius: 8px;
+  width: 200px;
+  gap: 10px;
+}
+.icons1 h4 {
+  border: 2px solid #ee4312;
+  width: 145px;
+  padding: 15px;
+  border-radius: 8px;
+  color: #ee4312;
 }
 
+.border {
+  border-bottom: 2px solid #ee4312;
+}
+
+.biggerdiv {
+  display: flex;
+  
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.biggerdiv h5 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 45px;
+}
+.biggerdiv p {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  
+}
 
