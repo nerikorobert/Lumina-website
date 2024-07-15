@@ -621,7 +621,7 @@ nav {
   margin: 20px;
 }
 .col-image {
-  flex-basis: 50%; /* Adjust as needed */
+  flex-basis: 50%; 
   text-align: center;
 }
 .articles-row-header {
@@ -734,7 +734,6 @@ nav {
   margin-top: 20px; /* Adjust the top margin to position the border */
   margin-bottom: 20px;
   margin-left: 60px;
-  /* Adjust the bottom margin to position the border */
 }
 .footer-logo {
   display: flex;
