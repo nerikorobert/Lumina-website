@@ -21,7 +21,7 @@
   /* padding-left: 30px; */
   justify-content: space-between;
 }
-.hero-section{
+.hero-section {
   background-color: #0e1947;
   color: #ffffff;
   padding-left: 70px;
@@ -129,7 +129,6 @@ nav {
 .image-container {
   position: relative;
   flex-basis: 50%;
-
 }
 
 .second-image {
@@ -178,7 +177,7 @@ nav {
 
 .biggerdiv {
   display: flex;
-  
+  width: 100%;
   margin-top: 30px;
   justify-content: space-between;
 }
@@ -186,11 +185,606 @@ nav {
   font-size: 36px;
   font-weight: 700;
   line-height: 45px;
+  font-family: "mona-sans", sans-serif;
 }
 .biggerdiv p {
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
+  font-family: "mona-sans", sans-serif;
+}
+
+
+
+
+/*.........offer section.....*/
+
+
+.offer {
+  background-color: #F5F7FF;
+  padding: 40px;
+  
   
 }
+.offertext {
+  background-color: #F5F7FF;
+  padding-left: 70px;
+  
+  
+}
+
+.offertext h1 {
+  font-size: 43px;
+  color: black;
+  line-height: 30px;
+  font-weight: 700;
+  font-family: "mona-sans", sans-serif;
+}
+.offertext p {
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 400;
+  margin-top: 30px;
+  font-family: "mona-sans", sans-serif;
+}
+.offer2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: #F5F7FF ;
+
+  /* border: 1px solid red; */
+  
+  gap: 150px;
+  
+}
+.offer3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: #F5F7FF ;
+  /* border: 1px solid red; */
+  gap: 150px;
+}
+.offercontainer1 {
+  
+  
+}
+.offerx{
+  
+}
+.offercontainer1 h1 {
+  font-size: 27px;
+  color: black;
+  line-height: 30px;
+  font-weight: 700;
+  font-family: "mona-sans", sans-serif;
+}
+.offercontainer1 p {
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 400;
+  margin-top: 20px;
+  font-family: "mona-sans", sans-serif;
+}
+.offercontainer1 img {
+  display: flex;
+  padding-left: 50px;
+  
+  padding-bottom: 30px;
+  
+  width: 150px;
+  
+
+}
+.technologysection {
+  background-color:#0e1947 ;
+}
+
+
+
+/*--------technology-----*/
+.technologysection {
+  width: 1790px;
+}
+
+
+.technology {
+  display: flex;
+  justify-content: center;
+  gap: 180px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  
+  /* border: 5px solid red; */
+  
+}
+.technologytext {
+  
+  /* border: 5px solid red; */
+  
+  margin-top: 50px;
+  
+}
+.technologytext h1 {
+  color: white;
+  font-size: 27px;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: "mona-sans", sans-serif;
+}
+.technologytext p {
+  color: white;
+  margin-top: 80px;
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 300;
+  margin-top: 20px;
+  font-family: "mona-sans", sans-serif;
+}
+.technologyimage {
+  width: px;
+}
+.logotech {
+  color: white;
+  margin-top: 70px;
+  border: 2px solid #ee4312;
+  width: 100px;
+  padding: 9px;
+  background-color:#ee4312 ;
+  border-radius: 7px;
+  
+
+  
+  
+}
+
+
+
+/*---------success-----*/
+
+.success {
+  background-color: #F5F7FF;
+  margin: 30px;
+  
+
+}
+.clients {
+  display: flex;
+  gap: 1000px;
+  margin-top: 70px;
+  background-color: #F5F7FF;
+
+}
+.clientstop {
+  background-color: #F5F7FF;
+
+
+}
+
+.clientstop h1 {
+  color: black;
+  font-size: 37px;
+  line-height: 30px;
+  font-weight: 650;
+  font-family: "mona-sans", sans-serif;
+
+}
+
+.clientstop p {
+  margin-top: 20px;
+  font-family: "mona-sans", sans-serif;
+
+}
+.link2 {
+  text-decoration: none;
+  margin-top: 30px;
+  
+  background-color: #ee4312;
+  color: #ffffff;
+  border: 3px solid #ee4312;
+  border-radius: 10px;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "mona-sans", sans-serif;
+
+
+  
+
+}
+.clients2 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.clientstop2 {
+  margin-top: 80px;
+  flex: 1;
+  width: 33%;
+   
+  font-family: "mona-sans", sans-serif;
+
+}
+.clientstop2 h1 {
+  margin-top: 20px;
+}
+.clientstop2 p {
+  margin-top: 20px;
+
+
+}
+.clientstop2 img {
+  margin-left: 30px;
+}
+
+
+
+/*------benefits----*/
+
+
+.benefit {
+  background: #0e1947;
+}
+
+.benefits {
+  margin: 30px;
+}
+
+.benefits1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  margin-left: 50px;
+   /* Ensure space between the two columns */
+}
+
+.left-column {
+  flex: 1; /* Take up remaining space */
+  margin-right: 20px; /* Optional: Add some space between columns */
+}
+
+.right-column {
+  flex: 1; /* Take up remaining space */
+}
+
+.benefits-header, .benefits-header2 {
+  margin-bottom: 20px;
+}
+
+.benefits-header {
+  width: 100%; 
+}
+
+.benefits-header h1, .benefits-header p {
+  color: white;
+  font-family: "mona-sans", sans-serif;
+}
+
+.benefits-header h1 {
+  margin-top: 80px;
+  font-size: 25px;
+  font-family: "mona-sans", sans-serif;
+
+
+}
+
+.benefits-header p {
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: "mona-sans", sans-serif;
+
+}
+
+.benefits-header2 {
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  width: 100%; /* Adjust to fit within the column */
+  background: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  
+}
+ .benefit-image {
+  width: 500px;
+}
+
+
+
+
+
+
+/*-------client----*/
+.client-section {
+  padding-top: 150px;
+  background-color: #F5F7FF;
+  padding-left: 50px;
+}
+.clients-header {
+  margin-left: 70px;
+}
+.clients-header h1 {
+  font-size: 27px;
+  font-weight: 200px;
+  font-family: "mona-sans", sans-serif;
+
+
+}
+.clients-header p {
+  font-family: "mona-sans", sans-serif;
+  width: 550px;
+  margin-top: 15px;
+  line-height: 1.5;
+
+
+
+}
+.clients1 {
+  display: flex;
+  align-items: center;
+  width: 1500px;
+  justify-content: space-between;
+
+
+}
+.client-image {
+  display: flex;
+  align-items: flex-end;
+}
+.clients2 {
+ display: flex;
+ justify-content: flex-start;
+}
+
+
+.clients-header2 p {
+  border-top-left-radius: 10px;  /* Adjust the radius as needed */
+  border-top-right-radius: 10px;
+  line-height: 1.5;
+  color: black;
+  margin-top: 50px;
+  border: 2px solid white;
+  width: 450px;
+  padding: 30px;
+  background: white;
+  font-family: "mona-sans", sans-serif;
+
+}
+.clients3-header {
+  color: white;
+  margin-left: 20px;
+  padding: 20px;
+  font-family: "mona-sans", sans-serif;
+
+}
+.clients3-header h1 {
+  font-size: 19px;
+  font-weight: 600;
+}
+.clients3-header p {
+  margin-top: 20px;
+  font-weight: 200;
+}
+.clients3-row {
+  display: flex;
+  align-items: center;
+  background: orangered;
+  width: 450px;
+  border-bottom-left-radius: 10px;  
+  border-bottom-right-radius: 10px;
+}
+.clients3-image {
+  width: 80px;
+  margin-left: 10px;
+}
+.clients3-icons {
+  width: 130px;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+.clients-columns {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+/*-----collaborative-----*/
+
+
+.collaborate-header {
+  padding-left: 90px;
+  padding-right: 40px;
+  flex-basis: 50%;
+
+  background-color: #0e1947;
+  color: #fff;
+  font-family: "mona-sans", sans-serif;
+
+}
+.collaborate-header h1 {
+  padding-top: 70px;
+  width: 330px;
+  font-size: 32px;
+  font-weight: 800;
+
+}
+.collaborate-header p {
+  width: 400px;
+  margin-top: 20px;
+  line-height: 1.5;
+  font-weight: 300 ;
+}
+.col-link {
+  text-decoration: none;
+  display: block;
+  margin-top: 40px;
+  background-color: #ee4312;
+  width: 170px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 8px;
+
+
+}
+.collaborate-columns {
+  display: flex;
+  flex-basis: 100%;
+  margin: 20px;
+  
+}
+.col-image {
+  flex-basis: 50%; /* Adjust as needed */
+  text-align: center;
+}
+.articles-row-header {
+  display: flex;
+  gap: 700px;
+  align-items: center;
+  padding-left: 70px;
+  padding-top: 50px;
+
+}
+.articles-row-header h1 {
+  font-family: "mona-sans", sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+
+
+}
+.articles-row-header p {
+  max-width: 490px;
+  margin-top: 20px;
+  line-height: 1.4;
+  font-family: "mona-sans", sans-serif;
+
+}
+.articles-link {
+  text-decoration: none;
+  border: 2px solid orangered;
+  border-radius: 8px;
+  padding: 10px 20px;
+  color: orangered;
+  font-family: "mona-sans", sans-serif;
+
+}
+.articles-row2 {
+  display: flex;
+  margin-top: 30px;
+  padding-left: 70px;
+  gap: 50px;
+}
+.articles-row2-header h1 {
+  font-size: 20px;
+  margin-top: 20px;
+  padding-left: 20px;
+  font-family: "mona-sans", sans-serif;
+
+
+
+}
+.articles-row2-header img {
+  width: 650px;
+}
+.articles-section {
+  padding-bottom: 50px;
+}
+
+
+
+
+/*-------footer----*/
+.footer {
+  background: #162356;
+}
+.fooer-header h1 {
+  color: #fff;
+  font-family: "mona-sans", sans-serif;
+    width: 350px;
+  padding-top: 80px;
+  padding-left: 60px;
+  line-height: 1.5;
+  font-size: 27px;
+
+}
+.footer-row1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  
+}
+.footer-icons {
+}
+.footer-icons img {
+  
+  width: 250px; /* Adjust image width as needed */
+  margin-left: 10px; /* Add spacing between link and image */
+}
+.footer-link {
+  width: 70px;
+  background-color: #ee4312;
+  border-radius: 8px;
+  padding: 10px;
+  
+  color: #fff;
+  text-decoration: none;
+  font-family: "mona-sans", sans-serif;
+
+
+}
+
+.footer-links {
+  background: #162356 ;
+  font-weight: 400;
+  width: 400px;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-left: 40px;
+  justify-content: space-evenly;
+  font-family: "mona-sans", sans-serif;
+}
+.footer-links2 {
+  background: #162356 ;
+  font-weight: 200;
+
+  width: 1300px;
+  display: flex;
+  list-style: none;
+  margin-top: 30px;
+  padding-bottom: 40px;
+  justify-content: space-evenly;
+  font-family: "mona-sans", sans-serif;
+}
+.full-width-border {
+  width: 80%; /* Adjust the width as needed, e.g., 90% to cover almost the entire width */
+  height: 2px; /* Adjust the height to make the border thicker or thinner */
+  background-color: orangered; /* Change the color to whatever you prefer */
+  margin-top: 20px; /* Adjust the top margin to position the border */
+  margin-bottom: 20px;
+  margin-left: 60px;
+   /* Adjust the bottom margin to position the border */
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  gap: 10px;
+}
+
+
+
+
+
+
+
 
