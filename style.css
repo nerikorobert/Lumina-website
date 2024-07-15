@@ -15,6 +15,10 @@
 
 .header {
   background-color: #0e1947;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  right: 0;
   /* height: 80px; */
   display: flex;
   align-items: center;
@@ -26,7 +30,8 @@
   color: #ffffff;
   padding-left: 70px;
   padding-right: 70px;
-  padding-bottom: 50px;
+  padding-bottom: 70px;
+  padding-top: 130px;
 }
 .navbar {
   display: flex;
@@ -92,8 +97,8 @@ nav {
   /* height: 50px; */
   border-radius: 8px;
   font-weight: 500;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -131,14 +136,11 @@ nav {
   flex-basis: 50%;
 }
 
-.second-image {
+.hero-section-image {
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 344px;
-  margin-left: 100px;
-  /* Add more styling as needed */
+  width: 95%;
+  right: 15%;
+  top: 5%;
 }
 .first-image {
   max-width: 100%;
@@ -154,7 +156,14 @@ nav {
   margin-top: 50px;
   margin-bottom: 40px;
 }
-.icons1 h3 {
+.btn {
+  padding: 15px;
+  font-size: 17px;
+  border-radius: 8px;
+  font-family: "mona-sans", sans-serif;
+  font-weight: 500;
+}
+.collaborate-btn {
   border: 2px solid #ee4312;
   padding: 15px;
   color: white;
@@ -163,12 +172,15 @@ nav {
   width: 200px;
   gap: 10px;
 }
-.icons1 h4 {
-  border: 2px solid #ee4312;
+
+.icons1 .learnmore-btn {
+  border: 1px solid #ee4312;
   width: 145px;
   padding: 15px;
   border-radius: 8px;
   color: #ee4312;
+
+  background-color: transparent;
 }
 
 .border {
@@ -178,13 +190,19 @@ nav {
 .biggerdiv {
   display: flex;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 80px;
   justify-content: space-between;
 }
-.biggerdiv h5 {
+.biggerdiv .div1 h5 {
   font-size: 36px;
   font-weight: 700;
   line-height: 45px;
+  font-family: "mona-sans", sans-serif;
+}
+.div2 h5 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
   font-family: "mona-sans", sans-serif;
 }
 .biggerdiv p {
@@ -194,23 +212,20 @@ nav {
   font-family: "mona-sans", sans-serif;
 }
 
-
-
-
 /*.........offer section.....*/
 
-
 .offer {
-  background-color: #F5F7FF;
-  padding: 40px;
-  
-  
+  background-color: #f5f7ff;
+  padding: 90px 40px;
+  position: relative;
+}
+.offer-dotted-image {
+  position: absolute;
+  right: 3%;
 }
 .offertext {
-  background-color: #F5F7FF;
+  background-color: #f5f7ff;
   padding-left: 70px;
-  
-  
 }
 
 .offertext h1 {
@@ -231,81 +246,75 @@ nav {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  background-color: #F5F7FF ;
-
+  background-color: #f5f7ff;
   /* border: 1px solid red; */
-  
   gap: 150px;
-  
 }
 .offer3 {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-  background-color: #F5F7FF ;
+  margin-top: 90px;
+  background-color: #f5f7ff;
   /* border: 1px solid red; */
   gap: 150px;
 }
 .offercontainer1 {
-  
-  
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* flex: 1; */
 }
-.offerx{
-  
+.offerx {
+  margin-top: 80px;
 }
 .offercontainer1 h1 {
   font-size: 27px;
   color: black;
   line-height: 30px;
+  text-align: center;
   font-weight: 700;
   font-family: "mona-sans", sans-serif;
 }
 .offercontainer1 p {
   font-size: 18px;
   line-height: 35px;
+  text-align: center;
+  color: rgb(75, 84, 94);
   font-weight: 400;
   margin-top: 20px;
   font-family: "mona-sans", sans-serif;
 }
 .offercontainer1 img {
   display: flex;
-  padding-left: 50px;
-  
-  padding-bottom: 30px;
-  
-  width: 150px;
-  
+  /* padding-left: 50px; */
 
+  padding-bottom: 30px;
+
+  width: 100px;
 }
 .technologysection {
-  background-color:#0e1947 ;
+  background-color: #0e1947;
+  padding-bottom: 80px;
 }
-
-
 
 /*--------technology-----*/
 .technologysection {
-  width: 1790px;
+  font-family: "mona-sans", sans-serif;
 }
-
 
 .technology {
   display: flex;
   justify-content: center;
-  gap: 180px;
-  padding-left: 20px;
-  padding-right: 20px;
-  
-  
-  /* border: 5px solid red; */
-  
+  gap: 10%;
+  /* border: 2px solid red;  */
 }
 .technologytext {
-  
-  /* border: 5px solid red; */
-  
-  margin-top: 50px;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  padding-left: 100px;
 }
 .technologytext h1 {
   color: white;
@@ -324,43 +333,34 @@ nav {
   font-family: "mona-sans", sans-serif;
 }
 .technologyimage {
-  width: px;
+  flex: 1;
 }
+
 .logotech {
   color: white;
   margin-top: 70px;
   border: 2px solid #ee4312;
-  width: 100px;
+  /* width: 100px; */
+  width: 20%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
   padding: 9px;
-  background-color:#ee4312 ;
+  background-color: #ee4312;
   border-radius: 7px;
-  
-
-  
-  
 }
-
-
 
 /*---------success-----*/
 
 .success {
-  background-color: #F5F7FF;
-  margin: 30px;
-  
-
+  background-color: #f5f7ff;
+  padding: 70px 60px;
+  /* margin: 30px; */
 }
 .clients {
   display: flex;
-  gap: 1000px;
-  margin-top: 70px;
-  background-color: #F5F7FF;
-
-}
-.clientstop {
-  background-color: #F5F7FF;
-
-
+  justify-content: space-between;
+  padding-top: 70px;
 }
 
 .clientstop h1 {
@@ -369,18 +369,18 @@ nav {
   line-height: 30px;
   font-weight: 650;
   font-family: "mona-sans", sans-serif;
-
 }
 
 .clientstop p {
   margin-top: 20px;
   font-family: "mona-sans", sans-serif;
-
+  line-height: 2;
+  color: rgb(112, 106, 106);
+  width: 60%;
 }
 .link2 {
   text-decoration: none;
   margin-top: 30px;
-  
   background-color: #ee4312;
   color: #ffffff;
   border: 3px solid #ee4312;
@@ -388,96 +388,90 @@ nav {
   font-weight: 500;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-family: "mona-sans", sans-serif;
-
-
-  
-
+  align-self: center;
 }
 .clients2 {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 10%;
+  margin-top: 20px;
 }
 
 .clientstop2 {
   margin-top: 80px;
   flex: 1;
-  width: 33%;
-   
   font-family: "mona-sans", sans-serif;
-
+  text-align: center;
 }
 .clientstop2 h1 {
   margin-top: 20px;
 }
 .clientstop2 p {
   margin-top: 20px;
-
-
+  line-height: 2;
+  color: rgb(100, 99, 99);
 }
 .clientstop2 img {
   margin-left: 30px;
 }
 
-
-
 /*------benefits----*/
-
 
 .benefit {
   background: #0e1947;
-}
-
-.benefits {
-  margin: 30px;
+  padding: 70px 60px;
+  font-family: "mona-sans", sans-serif;
 }
 
 .benefits1 {
   display: flex;
   justify-content: space-between;
-  gap: 60px;
+  gap: 6%;
   margin-left: 50px;
-   /* Ensure space between the two columns */
+  /* Ensure space between the two columns */
 }
 
 .left-column {
   flex: 1; /* Take up remaining space */
   margin-right: 20px; /* Optional: Add some space between columns */
+  /* border: 1px solid blue; */
 }
 
 .right-column {
   flex: 1; /* Take up remaining space */
+  /* border: 1px solid red; */
 }
 
-.benefits-header, .benefits-header2 {
+.benefits-header,
+.benefits-header2 {
   margin-bottom: 20px;
 }
 
 .benefits-header {
-  width: 100%; 
+  width: 100%;
 }
 
-.benefits-header h1, .benefits-header p {
+.benefits-header h1,
+.benefits-header p {
   color: white;
   font-family: "mona-sans", sans-serif;
 }
 
 .benefits-header h1 {
   margin-top: 80px;
-  font-size: 25px;
+  font-size: 40px;
   font-family: "mona-sans", sans-serif;
-
-
 }
 
 .benefits-header p {
   margin-top: 20px;
-  font-size: 15px;
+  font-size: 16px;
   font-family: "mona-sans", sans-serif;
-
+  line-height: 2;
+  margin-bottom: 50px;
 }
 
 .benefits-header2 {
@@ -487,22 +481,27 @@ nav {
   width: 100%; /* Adjust to fit within the column */
   background: white;
   padding: 10px;
+  gap: 3%;
   margin-bottom: 20px;
-  
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
- .benefit-image {
-  width: 500px;
+.benefits-header2 h3 {
+  margin-bottom: 15px;
 }
-
-
-
-
-
+.benefits-header2 p {
+  line-height: 1.6;
+  color: rgb(68, 64, 64);
+}
+.benefit-image {
+  /* width: 500px; */
+  width: 80%;
+}
 
 /*-------client----*/
 .client-section {
   padding-top: 150px;
-  background-color: #F5F7FF;
+  background-color: #f5f7ff;
   padding-left: 50px;
 }
 .clients-header {
@@ -512,38 +511,30 @@ nav {
   font-size: 27px;
   font-weight: 200px;
   font-family: "mona-sans", sans-serif;
-
-
 }
 .clients-header p {
   font-family: "mona-sans", sans-serif;
   width: 550px;
   margin-top: 15px;
   line-height: 1.5;
-
-
-
 }
 .clients1 {
   display: flex;
   align-items: center;
   width: 1500px;
   justify-content: space-between;
-
-
 }
 .client-image {
   display: flex;
   align-items: flex-end;
 }
 .clients2 {
- display: flex;
- justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
 
-
 .clients-header2 p {
-  border-top-left-radius: 10px;  /* Adjust the radius as needed */
+  border-top-left-radius: 10px; /* Adjust the radius as needed */
   border-top-right-radius: 10px;
   line-height: 1.5;
   color: black;
@@ -553,14 +544,12 @@ nav {
   padding: 30px;
   background: white;
   font-family: "mona-sans", sans-serif;
-
 }
 .clients3-header {
   color: white;
   margin-left: 20px;
   padding: 20px;
   font-family: "mona-sans", sans-serif;
-
 }
 .clients3-header h1 {
   font-size: 19px;
@@ -575,7 +564,7 @@ nav {
   align-items: center;
   background: orangered;
   width: 450px;
-  border-bottom-left-radius: 10px;  
+  border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 .clients3-image {
@@ -593,12 +582,7 @@ nav {
   margin-bottom: 30px;
 }
 
-
-
-
-
 /*-----collaborative-----*/
-
 
 .collaborate-header {
   padding-left: 90px;
@@ -608,20 +592,18 @@ nav {
   background-color: #0e1947;
   color: #fff;
   font-family: "mona-sans", sans-serif;
-
 }
 .collaborate-header h1 {
   padding-top: 70px;
   width: 330px;
   font-size: 32px;
   font-weight: 800;
-
 }
 .collaborate-header p {
   width: 400px;
   margin-top: 20px;
   line-height: 1.5;
-  font-weight: 300 ;
+  font-weight: 300;
 }
 .col-link {
   text-decoration: none;
@@ -632,14 +614,11 @@ nav {
   padding: 10px;
   color: #fff;
   border-radius: 8px;
-
-
 }
 .collaborate-columns {
   display: flex;
   flex-basis: 100%;
   margin: 20px;
-  
 }
 .col-image {
   flex-basis: 50%; /* Adjust as needed */
@@ -651,21 +630,17 @@ nav {
   align-items: center;
   padding-left: 70px;
   padding-top: 50px;
-
 }
 .articles-row-header h1 {
   font-family: "mona-sans", sans-serif;
   font-weight: 700;
   font-size: 27px;
-
-
 }
 .articles-row-header p {
   max-width: 490px;
   margin-top: 20px;
   line-height: 1.4;
   font-family: "mona-sans", sans-serif;
-
 }
 .articles-link {
   text-decoration: none;
@@ -674,7 +649,6 @@ nav {
   padding: 10px 20px;
   color: orangered;
   font-family: "mona-sans", sans-serif;
-
 }
 .articles-row2 {
   display: flex;
@@ -687,9 +661,6 @@ nav {
   margin-top: 20px;
   padding-left: 20px;
   font-family: "mona-sans", sans-serif;
-
-
-
 }
 .articles-row2-header img {
   width: 650px;
@@ -698,9 +669,6 @@ nav {
   padding-bottom: 50px;
 }
 
-
-
-
 /*-------footer----*/
 .footer {
   background: #162356;
@@ -708,24 +676,20 @@ nav {
 .fooer-header h1 {
   color: #fff;
   font-family: "mona-sans", sans-serif;
-    width: 350px;
+  width: 350px;
   padding-top: 80px;
   padding-left: 60px;
   line-height: 1.5;
   font-size: 27px;
-
 }
 .footer-row1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 0;
-  
 }
-.footer-icons {
-}
+
 .footer-icons img {
-  
   width: 250px; /* Adjust image width as needed */
   margin-left: 10px; /* Add spacing between link and image */
 }
@@ -734,16 +698,14 @@ nav {
   background-color: #ee4312;
   border-radius: 8px;
   padding: 10px;
-  
+
   color: #fff;
   text-decoration: none;
   font-family: "mona-sans", sans-serif;
-
-
 }
 
 .footer-links {
-  background: #162356 ;
+  background: #162356;
   font-weight: 400;
   width: 400px;
   display: flex;
@@ -754,7 +716,7 @@ nav {
   font-family: "mona-sans", sans-serif;
 }
 .footer-links2 {
-  background: #162356 ;
+  background: #162356;
   font-weight: 200;
 
   width: 1300px;
@@ -772,7 +734,7 @@ nav {
   margin-top: 20px; /* Adjust the top margin to position the border */
   margin-bottom: 20px;
   margin-left: 60px;
-   /* Adjust the bottom margin to position the border */
+  /* Adjust the bottom margin to position the border */
 }
 .footer-logo {
   display: flex;
@@ -780,11 +742,3 @@ nav {
   padding-left: 60px;
   gap: 10px;
 }
-
-
-
-
-
-
-
-
